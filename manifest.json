@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Back To the PTT",
+    "version": "0.1",
+    "description": "回到 PTT 官方所提供的文章頁面",
+    "content_scripts": [
+        {
+            "matches": ["*://moptt.tw/p/*", "*://disp.cc/b/*"],
+            "js": ["back_to_the_ptt.js"]
+        }
+    ],
+    "permissions": [
+    ]
+}
